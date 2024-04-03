@@ -18,7 +18,7 @@ export default {}
 <style scoped>
 .nav-container {
   position: fixed; /* 将导航栏固定在顶部 */
-  top:0;
+  top: 0;
   width: 100%; /* 设置宽度为100%，使导航栏占据整个屏幕宽度 */
   z-index: 1000; /* 设置层级，确保导航栏位于其他元素之上 */
 }
