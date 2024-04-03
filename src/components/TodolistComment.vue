@@ -52,8 +52,11 @@ const showTasks = (name) => {
 <template>
   <div class="container">
     <div class="title">
-      <h1>Todo-list<a href="https://gitee.com/korenpam/todo-list.git" class="vlink" target="_blank">Gitee</a></h1>
-      
+      <h1>
+        Todo-list<a href="https://gitee.com/korenpam/todo-list.git" class="vlink" target="_blank"
+          >Gitee</a
+        >
+      </h1>
     </div>
     <div class="comment-wrapper">
       <!-- 待办事项列表头部组件 -->
@@ -74,7 +77,6 @@ const showTasks = (name) => {
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
   transition: color 0.3s ease-in-out;
-
 }
 h1 {
   position: relative;
@@ -85,6 +87,8 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 400px;
+  margin-top: 60px;
 }
 .comment-wrapper {
   border: 1px solid #ccc;

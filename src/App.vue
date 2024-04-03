@@ -1,8 +1,21 @@
 <script setup>
-import Todolist from '@/views/todolist/Todolist.vue'
+import layout from '@/views/layout/index.vue'
 </script>
 <template>
-  <Todolist></Todolist>
+  <div id="def">
+    <layout></layout>
+  </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+#def {
+  width: 100%;
+  background-color: rgb(247, 247, 247);
+  margin: 20;
+  padding: 0;
+}
+layout {
+  margin: 0;
+  padding: 0;
+}
+</style>

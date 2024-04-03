@@ -1,8 +1,8 @@
 <script setup>
-import TodolistComment from '@/components/TodolistComment.vue'
+import Todolist from '@/components/TodolistComment.vue'
 </script>
 <template>
-    <TodolistComment></TodolistComment>
+  <Todolist></Todolist>
 </template>
 
 <style scoped></style>

@@ -88,7 +88,7 @@ watch(
 <template>
   <div class="comment">
     <ul class="comment-list">
-      <li class="todo-list" v-for="(item, index) in arrlist" :key="item.id">
+      <li class="todo-list" v-for="item in arrlist" :key="item.id">
         <Checkbox
           :checked="item.isChecked"
           @change="changeCheckBox"
