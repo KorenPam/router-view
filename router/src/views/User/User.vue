@@ -5,10 +5,11 @@
       <div class="details">
         <p><strong>姓名：</strong>{{ name }}</p>
         <p><strong>年龄：</strong>{{ age }}岁</p>
-        <p><strong>学号</strong>{{ num }}岁</p>
+        <p><strong>学号</strong>{{ num }}</p>
         <p><strong>职业：</strong>{{ email }}</p>
       </div>
-      <img class="user-img"
+      <img
+        class="user-img"
         src="https://th.bing.com/th?id=OIF.0ZJ%2fw9DQKI%2bQ0fiE7qAhaQ&rs=1&pid=ImgDetMain"
         alt=""
       />

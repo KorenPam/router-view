@@ -1,5 +1,5 @@
 <template>
-  <a-carousel autoplay>
+  <a-carousel autoplay >
     <div><img src="@/assets/bridge.jpg" alt="" /></div>
     <div><img src="@/assets/landscape.jpg" alt="" /></div>
     <div><img src="@/assets/sunset.jpg" alt="" /></div>
